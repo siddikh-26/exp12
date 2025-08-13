@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevOps Lifecycle - Experiment 12</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>DevOps Lifecycle - Experiment 12</h1>
+
+    <h2>Circular Diagram</h2>
+    <div class="circle-diagram">
+        <div class="stage" data-info="Planning phase: Define requirements and goals.">Plan</div>
+        <div class="stage" data-info="Development phase: Write and improve code.">Develop</div>
+        <div class="stage" data-info="Build phase: Compile and package the application.">Build</div>
+        <div class="stage" data-info="Testing phase: Check for bugs and errors.">Test</div>
+        <div class="stage" data-info="Release phase: Prepare the software for deployment.">Release</div>
+        <div class="stage" data-info="Deployment phase: Deliver software to production.">Deploy</div>
+        <div class="stage" data-info="Operation phase: Manage and run the software.">Operate</div>
+        <div class="stage" data-info="Monitoring phase: Track performance and issues.">Monitor</div>
+    </div>
+
+    <h2>Flowchart</h2>
+    <div class="flowchart">
+        <span class="box">Plan</span> <span class="arrow">→</span>
+        <span class="box">Develop</span> <span class="arrow">→</span>
+        <span class="box">Build</span> <span class="arrow">→</span>
+        <span class="box">Test</span> <span class="arrow">→</span>
+        <span class="box">Release</span> <span class="arrow">→</span>
+        <span class="box">Deploy</span> <span class="arrow">→</span>
+        <span class="box">Operate</span> <span class="arrow">→</span>
+        <span class="box">Monitor</span>
+    </div>
+
+    <p id="info-box">Click on a stage to learn more.</p>
+
+    <script src="script.js"></script>
+</body>
+</html>
